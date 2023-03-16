@@ -178,10 +178,12 @@ body {
   line-height: 17px;
   font-size: 16px;
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 .dates {
   width: 100%;
   letter-spacing: 0.03em;
+  line-height: 17px;
 }
 .dates span{
   font-size: 13px;
@@ -208,7 +210,7 @@ body {
   height:3px;
   width: 50px;
   display: block;
-  margin:0px 53% 0px 47%;
+  margin:0px 53% 5% 47%;
   border-radius:2px;
   -webkit-border-radius:2px;
   -moz-border-radius:2px;
@@ -470,4 +472,98 @@ width:86px;
   justify-content: space-around;
   align-items: center;
   background: #d3d3d3;
+}
+
+
+
+/* DESKTOP VERSION */
+@media screen and (min-device-width:768px),
+screen and (min-width:768px){
+  /* navbar */
+  .menu__btn{
+    display: none;
+  }
+  .topper {
+    display: block;
+    background-color: #3e3e3e;
+    margin-top: 0;
+  }
+  .top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 198px 0px 209px;
+    gap:20px;
+    color: #cfd8dc;
+    list-style: none;
+    padding:2%;
+    
+    
+  }
+
+
+/* hero-section */
+.hero-header{
+  position:relative;
+  left:10%;
+  right:32.3px;
+  width: 55%;
+}
+.main-program-content{
+  display: flex;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: calc(90%);
+  /*width: 90%;
+  */height: auto;
+  justify-content: center;
+  justify-content: center;
+  padding-bottom: 10%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.program{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  width: 200px;
+  height: fit-content(350px);
+  
+
+}
+.one,.two,.three,.four,.five{
+  flex: 1 0 17%;
+}
+.join-btn{
+  margin-top: 3%;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* speaker list */
+.speaker-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.speaker{
+  flex: 1 0 50%;
+}
+
 }
