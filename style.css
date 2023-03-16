@@ -486,7 +486,6 @@ screen and (min-width:768px){
   .topper {
     display: block;
     background-color: #3e3e3e;
-    margin-top: 0;
   }
   .top-nav {
     display: flex;
@@ -497,8 +496,55 @@ screen and (min-width:768px){
     color: #cfd8dc;
     list-style: none;
     padding:2%;
+    margin-top: 0;
+   
     
     
+  }
+  .menu_toggle{
+    display: none;
+    visibility: hidden;
+  }
+  #loggo{
+    width: 70px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    border: 1px solid blue;
+    box-sizing: border-box;
+   
+  }
+ 
+  
+  .hamburger-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 95%;
+    flex: 1 0;
+    justify-content: space-around;
+    padding: 10px;
+
+  }
+  .menu__box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:unset;
+    background: unset;
+    width: 80%;
+    height:auto;
+    padding: 0px;
+    box-shadow: unset;
+}
+  .menu__item {
+    display: absolute;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin:0px 10px ;
+  }
+  #campaign{
+    margin-left: 5%;
+    border: 1px solid red;
   }
 
 
