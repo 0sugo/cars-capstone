@@ -61,19 +61,91 @@ const speakerList = document.createElement('div');
 speakerList.classList.add('speaker-list');
 featuredSpeakers.append(speakerList);
 
-let tmp='';
-speakers.forEach(speaker => {
-    
-    tmp += 
-    `<div id="${speaker.id}" class="speaker">
-    <div class="photo-bg"><img src="${speaker.image}" alt="Image of the speaker"></div>
-    <div class="speaker-details">
-        <h5>${speaker.name}</h5>
-        <p class="about-em">${speaker.aboutem}</p>
-        <p class="bio" >${speaker.bio}</p>
-    </div>
-</div>`;
-    
-});
-speakerList.innerHTML = tmp;
 
+
+window.onload = function(){
+    loadSpeakers();
+}
+
+let tmp='';
+
+
+function loadSpeakers(){
+
+        if(window.screen.width < 768){
+            for (let i = 0; i < 2; i++){
+    
+                    tmp += 
+                    `<div id="${speakers[i].id}" class="speaker">
+                    <div class="photo-bg"><img src="${speakers[i].image}" alt="Image of the speaker"></div>
+                    <div class="speaker-details">
+                        <h5>${speakers[i].name}</h5>
+                        <p class="about-em">${speakers[i].aboutem}</p>
+                        <p class="bio" >${speakers[i].bio}</p>
+                    </div>
+                </div>`;
+                    
+    
+                speakerList.innerHTML = tmp; 
+
+                const showMore = document.createElement('div');
+                showMore.classList.add('show-container');
+                speakerList.appendChild(showMore);
+
+                const btnShow = document.createElement('button');
+                btnShow.setAttribute('id','showMore');
+                btnShow.innerHTML = 'More';
+                showMore.append(btnShow);
+
+                const span = document.createElement('span');
+                span.innerHTML = '&#9660;';
+                btnShow.appendChild(span);
+
+                // button show more
+btnShow.addEventListener('click',function(){
+    tmp = '';
+    speakers.forEach(speaker => {
+    
+        tmp += 
+        `<div id="${speaker.id}" class="speaker">
+        <div class="photo-bg"><img src="${speaker.image}" alt="Image of the speaker"></div>
+        <div class="speaker-details">
+            <h5>${speaker.name}</h5>
+            <p class="about-em">${speaker.aboutem}</p>
+            <p class="bio" >${speaker.bio}</p>
+        </div>
+    </div>`;
+        
+    });
+    speakerList.innerHTML = tmp;
+
+
+});
+
+        }
+
+        }else{
+            speakers.forEach(speaker => {
+    
+                    tmp += 
+                    `<div id="${speaker.id}" class="speaker">
+                    <div class="photo-bg"><img src="${speaker.image}" alt="Image of the speaker"></div>
+                    <div class="speaker-details">
+                        <h5>${speaker.name}</h5>
+                        <p class="about-em">${speaker.aboutem}</p>
+                        <p class="bio" >${speaker.bio}</p>
+                    </div>
+                </div>`;
+                    
+                });
+                speakerList.innerHTML = tmp;
+        }
+
+};
+
+
+
+window.onresize = function(){
+    tmp='';
+    loadSpeakers();
+}

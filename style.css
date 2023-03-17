@@ -8,7 +8,8 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
-  background-color: #ffffff;
+  background-color: #d3d3d3;
+  letter-spacing: 0.03 em;
 }
 
 /* Navbar */
@@ -49,7 +50,7 @@ body {
   position: absolute;
   width: 100%;
   height: 4px;
-  background-color: #616161;
+  background-color: #d3d3d3;
   transition-duration: 0.25s;
 }
 
@@ -74,7 +75,7 @@ body {
   margin: 0;
   padding: 180px 0;
   list-style: none;
-  background-color: #eceff1;
+  background-color: #d3d3d3;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   transition-duration: 0.25s;
 }
@@ -127,13 +128,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 1000px rgba(9, 9, 15, 0.8);
-    color: #cfd8dc;
+    color: #d3d3d3;
     margin-top: 30px;
     display: flex;
     align-items: center;
 }
 .hero-header {
-  font-weight: 100;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -154,9 +155,8 @@ body {
   background-size: cover;
   background-clip: inherit;
   font-size: 33px;
-  font-weight: 900;
+  font-weight: 700;
   gap: 2;
-  color: #eceff1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -164,12 +164,13 @@ body {
 #hero-top span{
   font-size: 17px;
   color: red;
+  letter-spacing: 0.03em;
 
 }
 
 #hero-paragraph{
   background: #d3cfcf;
-  color:black;
+  color:#414141;
   margin: 20px 0;
   border: 2px solid white;
   width: 80%;
@@ -183,10 +184,10 @@ body {
 .dates {
   width: 100%;
   letter-spacing: 0.03em;
-  line-height: 17px;
+  line-height: 20px;
 }
 .dates span{
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
 }
 /* main program */
@@ -206,7 +207,7 @@ body {
 }
 
 .indicator{
-  background-color: #A04038;
+  background-color: #ec5242;
   height:3px;
   width: 50px;
   display: block;
@@ -238,7 +239,7 @@ body {
 .program h3{
 padding-left:10px ;
 letter-spacing:0.1rem ;
-color: #A04038;
+color: #ec5242;
 justify-self: center;
 
 }
@@ -250,7 +251,9 @@ justify-self: center;
 }
 .join-btn{
   color:#cfd8dc;
-  background-color: #A04038;
+  background-color: #ec5242;
+  margin: 60px 0px 0px 0px;
+  font-size: 15px;
   border:none;
   padding: 0 1rem;
   height: 70px;
@@ -263,6 +266,9 @@ justify-self: center;
 }
 .program:hover{
 border: 2px solid #cfd8dc;
+}
+#hide-desktop{
+  display:none
 }
 /* speakers */
 .speakers_top{
@@ -301,20 +307,40 @@ padding: 15px;}
 }
 
 .speaker-details h5{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #272a31;
-  /* height: 2px; */
 
 }
 .about-em{
   font-style: italic;
   color:#ec5242;
-  font-size: 12px;
+  font-size: 16px;
 }
 .bio{
   font-style: italic;
   color:#272a31 ;
-  font-size: 12px;
+  font-size: 15px;
+
+}
+.show-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  border: 1px solid #d3d3d3;
+}
+#showMore{
+  border: none;
+  background: none;
+  letter-spacing: 0.03em;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+}
+#showMore span{ 
+  color: #ec5242;
 
 }
 /* ABOUT PAGE */
@@ -336,7 +362,7 @@ padding: 15px;}
   background-clip: inherit;
   font-size: 33px;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
   gap: 2;
   color: #eceff1;
   -webkit-background-clip: text;
@@ -351,6 +377,7 @@ padding: 15px;}
 /* big logo */
 .sec-logo{
   text-align: center;
+  font-size: 16px;
 }
 .logo_top h3{
   letter-spacing: 0.1rem;
@@ -384,7 +411,6 @@ padding: 15px;}
   letter-spacing: 0.1rem;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  font-size: 1.5rem;
   text-align: center;
 }
 .past-summits h3{
@@ -436,7 +462,7 @@ padding: 15px;}
 
 }
 #psts-p{
-  font-size: 1 rem;
+  font-size: 16px;
   font-weight: 400;
   color: #d3d3d3;
 
@@ -631,6 +657,7 @@ screen and (min-width:768px){
   flex: 1 0 49%;
 }
 /* partners */
+
 .partners-logo{
   margin: 25px 0px 0px 0px;
   padding: 20px 0px;
@@ -650,7 +677,7 @@ width:172px;
 
 }
 .footer h4{
-  font-size: 22px;
+  font-size: 20px;
 
 }
 #logo{
