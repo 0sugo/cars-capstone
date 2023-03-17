@@ -1,0 +1,57 @@
+<div class="speakers_top">
+                        <h3>Featured Speakers </h3>  
+                    </div>
+                    <div class="indicator"><span></span></div>
+                    <div class="speaker-list">
+                        <div id ="first" class="speaker">
+                            <div class="photo-bg"><img src="images/speaker1.png" alt=""></div>
+                            <div class="speaker-details">
+                                <h5>James Oletik</h5>
+                                <p class="about-em">Co-founder and CEO Club TT motorsport </p>
+                                <p class="bio" >A kenyan WRC racer and founder of clubTT motorsport with several won titles in WRC Championship</p>
+                            </div>
+                        </div>
+                        <div id="second" class="speaker">
+                            <div class="photo-bg"><img src="images/speaker2.png" alt=""></div>
+                            <div class="speaker-details">
+                                <h5>Mercy Kaptum</h5>
+                                <p class="about-em">WRC racer</p>
+                                <p class="bio" >A  Female kenyan WRC racer,that has put ladies on the rally map in her outstanding perfomance last year</p>
+                            </div>
+                        </div>
+
+                        <div id="third" class="speaker">
+                            <div class="photo-bg"><img src="images/speaker3.png" alt=""></div>
+                            <div class="speaker-details">
+                                <h5>Parsali Olerek</h5>
+                                <p class="about-em">Retired WRC racer</p>
+                                <p class="bio" >A former WRC racer and   2021,WRC winner,Currently lead coach in Kenya Airways rally team</p>
+                            </div>
+                        </div>
+                        <div id="fourth" class="speaker">
+                            <div class="photo-bg"><img src="images/speaker4.png" alt=""></div>
+                            <div class="speaker-details">
+                                <h5>Peter Opondo</h5>
+                                <p class="about-em">Mechanic and race car-tuner</p>
+                                <p class="bio" >A kenyan WMechanic that has specialised in tuning cars to peek performance for rally-purposes</p>
+                            </div>
+                        </div>
+                        <div id="fifth" class="speaker">
+                            <div class="photo-bg"><img src="images/speaker5.png" alt=""></div>
+                            <div class="speaker-details">
+                                <h5>Sam Hamilton</h5>
+                                <p class="about-em">Co-founder and CEO Club TT motorsport </p>
+                                <p class="bio" >A kenyan WRC racer and founder of clubTT motorsport with several won titles in WRC Championship</p>
+                            </div>
+                        </div>
+                        <div id="sixth" class="speaker">
+                            <div class="photo-bg"><img src="images/speaker6.png" alt=""></div>
+                            <div class="speaker-details">
+                                <h5>Jeff Onsense</h5>
+                                <p class="about-em">Co-founder and CEO Sport Nation_254 </p>
+                                <p class="bio" >A kenyan WRC racer and founder of Sport Nation_254,Famous for his many won titles in drag races in Kenya</p>
+                            </div>
+                        </div>
+                        <a href="">See More</a>
+
+                    </div>
