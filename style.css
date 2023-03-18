@@ -559,7 +559,6 @@ body {
   .topper {
     display: block;
     background-color: #3e3e3e;
-    
   }
 
   .top-nav {
@@ -571,7 +570,7 @@ body {
     list-style: none;
     padding: 2%;
     margin-top: 0;
-    width:87%;
+    width: 87%;
   }
 
   .menu_toggle {
@@ -594,7 +593,7 @@ body {
     width: 90%;
     flex: 1 0;
     justify-content: space-between;
-    padding:10px 0px 10px 10px;
+    padding: 10px 0 10px 10px;
   }
 
   .menu__box {
@@ -716,12 +715,15 @@ body {
   .indicator {
     margin: 0 53% 0% 47%;
   }
-  #hide-1{
+
+  #hide-1 {
     display: none;
   }
-  #unique{
+
+  #unique {
     background: #272a31;
   }
+
   #hide-desktop {
     display: flex;
   }
