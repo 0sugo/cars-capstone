@@ -24,7 +24,7 @@
 
 # 📖 [cars-capstone] <a name="about-project"></a>
 
-**[cars-capstone]** Is a simple project that compounds a webpage (home and about page) for a fictional Engineer's Conference based on  design by Cindy Shin in Behance.
+**[cars-capstone]** Is a simple project that compounds of a webpage (home and about page) for a fictional car conference set to take place in Kenya and basically it contains information about the conference ie speakers,program and about the organisation behind the whole meeting.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML.
