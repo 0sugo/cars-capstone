@@ -24,7 +24,7 @@
 
 # 📖 [cars-capstone] <a name="about-project"></a>
 
-**[cars-capstone]** Is a simple project that compounds of a webpage (home and about page) for a fictional car conference set to take place in Kenya and basically it contains information about the conference ie speakers,program and about the organisation behind the whole meeting.
+**[cars-capstone]** Is a simple project that compounds of a webpage (home and about page) for a fictional car conference set to take place in Kenya and basically it contains information about the conference ie speakers,program and about the organisation behind the whole meeting.Here is a brief video of how it looks on both the desktop and mobile. https://www.loom.com/share/a4210767b4c74d04b70b3ab6b7d0030c
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML.
