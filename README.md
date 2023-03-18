@@ -38,7 +38,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://0sugo.github)
+- [Live Demo Link](https://0sugo.github.io/cars-capstone/)
 
 <!-- GETTING STARTED -->
 
